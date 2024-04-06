@@ -25,6 +25,8 @@ public class mundoPC {
         orden1.mostrarOrden();
         orden2.mostrarOrden();
         
+        
+        
         // Crear más objetos de tipo computadora con todos sus elementos.
         // Completar una lista en el objeto orden1 que llegue a los 10 elementos.
         // Probar de ésta manera los métodos al máximo rendimiento.
