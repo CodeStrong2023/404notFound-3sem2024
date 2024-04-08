@@ -43,7 +43,7 @@ Aquí subiremos las clases, ejercicios y tareas en equipo del 3er Semestre de la
   </tr>
   <tr>
     <td>Debora Celeste Pulitta</td>
-    <td> - </td>
+    <td> 10554 </td>
   </tr>
   <tr>
     <td>Matías Landi</td>
