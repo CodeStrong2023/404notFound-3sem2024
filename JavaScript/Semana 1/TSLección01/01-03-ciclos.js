@@ -28,3 +28,12 @@ for(let contando=0;contando<=10;contando++){
     }
 }
 console.log("termina el ciclo al encontrar el primer numero par");
+
+// Palabra continue
+for (i = 0; i < 10; i++) {
+    if (i % 2 !== 0) { // Si el módulo de 2 es distinto a 0 osea que es impar.
+        continue; // Salta la iteración actual y salta a la siguiente.
+    }
+    console.log(i); // Muestra los pares.
+}
+console.log("Termina el ciclo al encontrar los números pares");
