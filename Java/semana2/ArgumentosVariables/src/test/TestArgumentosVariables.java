@@ -11,4 +11,9 @@ public class TestArgumentosVariables {
             
         }
     }
+    
+     private static void variosParametros(String nombre, String apellido, int ...numeros) {
+        System.out.println("Nombre y apellido: " + nombre + " " + apellido);
+        imprimirNumeros(numeros);
+    }
 }
