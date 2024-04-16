@@ -14,6 +14,7 @@ print(Cuadrado.mro())
 print(cuadrado1)
 
 rectangulo1 = Rectangulo(3,9,"Verde")
+rectangulo1.alto = 23 # La función 'validarValores' hace que se ignoren los valores que no son admitidos.
 print("creacion de objeto clase rectangulo".center(50,"_"))
 print(f"Calculo del area del rectangulo: {rectangulo1.calcular_area()}")
 print(rectangulo1)
