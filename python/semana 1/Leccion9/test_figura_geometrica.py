@@ -1,5 +1,8 @@
 from Cuadrado import Cuadrado
-cuadrado1 = Cuadrado(5, 'Azul')
+from Rectangulo import Rectangulo
+
+print("creacion de objeto clase cuadrado".center(50,"_"))
+cuadrado1 = Cuadrado(8, 'Azul')
 print(cuadrado1.ancho)
 print(cuadrado1.alto)
 print(f'Cálculo del área del cuadrado: {cuadrado1.calcular_area()}' )
@@ -10,7 +13,8 @@ print(f'Cálculo del área del cuadrado: {cuadrado1.calcular_area()}' )
 print(Cuadrado.mro())
 print(cuadrado1)
 
-rectangulo1 = Rectangulo(5,8,"Verde")
+rectangulo1 = Rectangulo(3,9,"Verde")
+print("creacion de objeto clase rectangulo".center(50,"_"))
 print(f"Calculo del area del rectangulo: {rectangulo1.calcular_area()}")
 print(rectangulo1)
 print(cuadrado1)
