@@ -1,6 +1,6 @@
 package paquete1;
 
-class Clase2 extends Clase1 {
+class Clase2{
 
     String atributoDefault = "Valor del atributo default";
 
