@@ -26,3 +26,5 @@ print(persona3)
 
 persona4 = Persona("Guadalupe", 18)
 print(persona4)
+Persona.generar_siguiente_valor()
+print(f"valor contador persona: {Persona.contador_persona}")
