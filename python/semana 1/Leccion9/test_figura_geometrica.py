@@ -1,21 +1,30 @@
 from Cuadrado import Cuadrado
+from FiguraGeometrica import FiguraGeometrica
 from Rectangulo import Rectangulo
 
-print("creacion de objeto clase cuadrado".center(50,"_"))
-cuadrado1 = Cuadrado(8, 'Azul')
-print(cuadrado1.ancho)
-print(cuadrado1.alto)
-print(f'Cálculo del área del cuadrado: {cuadrado1.calcular_area()}' )
+# Desde el archivo Cuadrado importamos la clase Cuadrado
+
+print("Creación de objeto clase Cuadrado".center(50, "_"))
+cuadrado1 = Cuadrado(8, "Azul")
+cuadrado1.alto = 7
+cuadrado1.ancho = 7
+# print(cuadrado1.ancho)
+# print(cuadrado1.alto)
+print(f"Cálculo del área del cuadrado: {cuadrado1.calcular_area()}")
 
 # MRO = Method Resolution Order
-# Permite conocer la jearaquía de las clases frente a la clase actual en la que estamos llamando a un método.
+# Permite conocer la jerarquía de las clases frente a la clase actual en la que estamos llamando a  un método.
 
-print(Cuadrado.mro())
+# print(Cuadrado.mro())
+
+
 print(cuadrado1)
-
-rectangulo1 = Rectangulo(3,9,"Verde")
-print("creacion de objeto clase rectangulo".center(50,"_"))
-print(f"Calculo del area del rectangulo: {rectangulo1.calcular_area()}")
+print("Creación de objeto clase Rectángulo".center(50, "_"))
+rectangulo1 = Rectangulo(3, 9, "Verde")
+rectangulo1.ancho = 8
+print(f"Cálculo del área del rectangulo: {rectangulo1.calcular_area()}")
 print(rectangulo1)
-print(cuadrado1)
 
+#figura1 = FiguraGeometrica()
+# Mro significa: method resolution order
+print(Rectangulo.mro())
