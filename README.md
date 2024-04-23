@@ -8,6 +8,7 @@ Aquí subiremos las clases, ejercicios y tareas en equipo del 3er Semestre de la
 <p align="left"> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> </a>  <a href="https://www.python.org" target="_blank" rel="noreferrer"> </p>
 
 # Equipo 404 NotFound 💻
+
 <table>
   <tr>
     <th>Integrantes</th>
@@ -48,5 +49,50 @@ Aquí subiremos las clases, ejercicios y tareas en equipo del 3er Semestre de la
   <tr>
     <td>Matías Landi</td>
     <td>10416</td>
+  </tr>
+</table>
+
+
+
+<table>
+  <tr>
+    <th>Scrum Master Semanales</th>
+    <th>N° de Semana</th>
+  </tr>
+  <tr>
+    <td>Enzo Astorga</td>
+    <td>1 / 2</td>
+  </tr>
+  <tr>
+    <td>Gonzalo Balmaceda</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Ignacio José Rocha</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Diego Rafael Llanos Ramos</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Maximiliano Robilotta</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Guillermo Giannone</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Javier Mariñanco</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Debora Celeste Pulitta</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Matías Landi</td>
+    <td>...</td>
   </tr>
 </table>
