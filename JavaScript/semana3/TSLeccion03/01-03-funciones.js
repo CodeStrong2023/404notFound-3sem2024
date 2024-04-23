@@ -9,3 +9,4 @@ miFunction(3,5);
 
 let resultado=miFunction(6,7);
 console.log(resultado);
+
