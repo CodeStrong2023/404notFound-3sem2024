@@ -10,6 +10,7 @@ class Monitor:
     def __str__(self):
         return f'Id: {self._id_monitor}, Marca: {self._marca}, Tamaño: {self._tamaño}'
 
+
 if __name__ == '__main__':
     monitor1 = Monitor('HP', '15 pulgadas')
     print(monitor1)

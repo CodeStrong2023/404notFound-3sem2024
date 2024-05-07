@@ -18,3 +18,4 @@ class Orden:
             Orden: {self._id_orden}
             Computadoras: {computadoras_str}
         '''
+
