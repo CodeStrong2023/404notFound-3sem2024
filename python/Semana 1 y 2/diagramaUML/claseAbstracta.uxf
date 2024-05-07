@@ -1,0 +1,16 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>100</x><y>100</y><w>210</w><h>100</h></coordinates><panel_attributes>&lt;&lt;FiguraGeometrica&gt;&gt;
+--
+-alto
+-ancho
+--
++area() &lt;&lt;abstract&gt;&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>120</y><w>150</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Color&gt;&gt;
+--
++color</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>330</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Cuadrado&gt;&gt;
+--
++area() &lt;&lt;implementacion&gt;&gt; </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>330</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Rectangulo&gt;&gt;
+--
++area() &lt;&lt;implementacion&gt;&gt; </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>190</y><w>330</w><h>160</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;310;140</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>180</y><w>310</w><h>170</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;150;290;10</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>190</y><w>90</w><h>160</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>180</y><w>90</w><h>170</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;150;10;10</additional_attributes></element></diagram>
