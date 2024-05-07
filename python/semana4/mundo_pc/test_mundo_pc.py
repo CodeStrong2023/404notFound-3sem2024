@@ -1,8 +1,8 @@
-from computadora import Computadora
-from monitor import Monitor
-from orden import Orden
-from raton import Raton
-from teclado import Teclado
+from mundo_pc.monitor import Monitor
+from mundo_pc.raton import Raton
+from mundo_pc.teclado import Teclado
+from mundo_pc.computadora import Computadora
+from mundo_pc.orden import Orden
 
 teclado1 = Teclado('HP', 'USB')
 monitor1 = Monitor('HP', '15 pulgadas')
