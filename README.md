@@ -53,46 +53,67 @@ Aquí subiremos las clases, ejercicios y tareas en equipo del 3er Semestre de la
 </table>
 
 
-
+# Scrum Master Semanales
 <table>
   <tr>
-    <th>Scrum Master Semanales</th>
-    <th>N° de Semana</th>
+    <th>SM</th>
+    <th>Python</th>
+    <th>Java</th>
+    <th>JavaScript</th>
   </tr>
   <tr>
     <td>Enzo Astorga</td>
-    <td>1 / 2</td>
+    <td>-</td>
+    <td>S1</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>EnzoAstorga</td>
+    <td>S1</td>
+    <td>S2</td>
+    <td>S1</td>
   </tr>
   <tr>
     <td>Gonzalo Balmaceda</td>
-    <td>3</td>
+    <td>S2</td>
+    <td>S3</td>
+    <td>S2</td>
   </tr>
   <tr>
     <td>Ignacio José Rocha</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Diego Rafael Llanos Ramos</td>
-    <td>...</td>
-  </tr>
-  <tr>
-    <td>Maximiliano Robilotta</td>
-    <td>...</td>
-  </tr>
-  <tr>
-    <td>Guillermo Giannone</td>
-    <td>...</td>
-  </tr>
-  <tr>
-    <td>Javier Mariñanco</td>
-    <td>...</td>
-  </tr>
-  <tr>
-    <td>Debora Celeste Pulitta</td>
-    <td>...</td>
+    <td>S3</td>
+    <td>S4</td>
+    <td>S3</td>
   </tr>
   <tr>
     <td>Matías Landi</td>
-    <td>...</td>
+    <td>S4</td>
+    <td>-</td>
+    <td>S4</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
+
