@@ -6,9 +6,19 @@ let perosna = {
     nombre: 'Carlos',
     apellido:'Gil',
     email: 'cgil@gmail.com',
-    edad: 30,
+    edad: 28,
+    idioma: 'ES',
+    get lang (){
+        return this.idioma.toUpperCase();// Convierte las minúsculas a mayúsculas
+    },
+    set lang(lang){
+        this.idioma = lang.toUpperCase();
+    },
     nombreCompleto: function(){ //Método o función en JavaScrip
         return this.nombre+' '+this.apellido;
+    },
+    get nombreEdad(){// Este es el método get
+        return this.nombre+', Edad: '+this.edad;
     }
 }
 
@@ -35,7 +45,7 @@ for(propiedad in perosna){
 console.log('Cambiamos y eliminamos un error');
 persona.apellida = 'Betancud';//Cambiamos dinamicamente un valor del objeto
 delete persona.apellida; //Eliminamos el error
-console.log(perosna);
+console.log(persona);
 
 //Distintas formas de imprimir un objeto
 //Número 1: La más sencilla: concatenar cada valor de cada propiedad
@@ -57,3 +67,10 @@ console.log(personaArray);
 console.log('Distintas formas de imprimir un objeto: Forma 4');
 let personaString = JSON.stringify(perosna);
 console.log(personaString);
+
+console.log('Comenzamos a utilizar el método get');
+console.log(perosna.nombreEdad);
+
+console.log('Comenzamos con el método get y set para idiomas');
+persona.lang = 'en';
+console.log(perosna.lang);
