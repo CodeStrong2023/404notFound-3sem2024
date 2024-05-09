@@ -2,7 +2,7 @@ let x = 10;//variable tipo primitivo
 console.log(x.length);
 console.log('Tipos primitivos');
 // Objeto
-let perosna = {
+let persona = {
     nombre: 'Carlos',
     apellido:'Gil',
     email: 'cgil@gmail.com',
@@ -22,12 +22,12 @@ let perosna = {
     }
 }
 
-console.log(perosna.nombre);
-console.log(perosna.apellido);
-console.log(perosna.email);
-console.log(perosna.edad);
+console.log(persona.nombre);
+console.log(persona.apellido);
+console.log(persona.email);
+console.log(persona.edad);
 console.log(persona);
-console.log(perosna.nombreCompleto());
+console.log(persona.nombreCompleto());
 console.log('Ejecutando con un objeto');
 let persona2 = new Object(); //Debe crear un nuevo objeto en memoria 
 persona2.nombre = 'Juan';
@@ -38,9 +38,9 @@ console.log('Creamos un nuevo objeto');
 console.log(perosna['apellido']);//Accedemos como si fuera un arreglo
 console.log('Usamos el ciclo for in');
 //for in y accedemos al objeto como si fuera un arreglo
-for(propiedad in perosna){
+for(propiedad in persona){
     console.log(propiedad);
-    console.log(perosna[propiedad]);
+    console.log(persona[propiedad]);
 }
 console.log('Cambiamos y eliminamos un error');
 persona.apellida = 'Betancud';//Cambiamos dinamicamente un valor del objeto
@@ -49,13 +49,13 @@ console.log(persona);
 
 //Distintas formas de imprimir un objeto
 //Número 1: La más sencilla: concatenar cada valor de cada propiedad
-console.log(perosna.nombre+', '+perosna.apellido);
+console.log(persona.nombre+', '+persona.apellido);
 console.log('Distintas formas de imprimir un objeto: Forma 1');
 
 //Número 2: A travéz del ciclo for in
 console.log('Distintas formas de imprimir un objeto: Forma 2');
-for (nombrePropiedad in perosna){
-    console.log(perosna[nombrePropiedad]);
+for (nombrePropiedad in persona){
+    console.log(persona[nombrePropiedad]);
 }
 
 //Número 3: La función objet.values()
@@ -65,12 +65,28 @@ console.log(personaArray);
 
 //Número 4: Utilizaremos el método JSON.stringify
 console.log('Distintas formas de imprimir un objeto: Forma 4');
-let personaString = JSON.stringify(perosna);
+let personaString = JSON.stringify(persona);
 console.log(personaString);
 
 console.log('Comenzamos a utilizar el método get');
-console.log(perosna.nombreEdad);
+console.log(persona.nombreEdad);
 
 console.log('Comenzamos con el método get y set para idiomas');
 persona.lang = 'en';
-console.log(perosna.lang);
+console.log(persona.lang);
+
+function Persona3(nombre, apellido, email){
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+    this.nombreCompleto = function(){
+        return this.nombre+' '+this.apellido;
+    }
+}
+let padre = new Persona3('Leo', 'Lopez', 'lopezl@gmail.com');
+padre.nombre = 'Luis'; //Modificamos el nombre
+console.log(padre);
+console.log(padre.nombreCompleto()) //Utilizamos la función
+let madre = new Persona3('Laura', 'Contrera', 'contreral@gmail.com');
+console.log(madre);
+console.log(madre.nombreCompleto());
