@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package test;
 
-/**
- *
- * @author ignacio
- */
+import domain.*;
+
 public class TestConversionObjetos {
-    
+    public static void main(String[] args) {
+        Empleado empleado;
+        empleado = new Escritor("Juan", 5000, TipoEscritura.CLASICO);
+        //System.out.println(empleado);
+        System.out.println(empleado.obtenerDetalles()); // Si queremos acceder a métodos Escritor.
+        //empleado.getTipoEscritura(); // No se puede hacer.
+
+        // Downcasting.
+        //((Escritor)empleado).getTipoEscritura(); // Tenemos dos opciones: Esta es una.
+        Escritor escritor = (Escritor)empleado; // Esto es la segundo opción.
+        escritor.getTipoEscritura();
+    }
 }
