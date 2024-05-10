@@ -1,19 +1,16 @@
-
 package domain;
-
 
 public class Empleado {
     protected String nombre;
     protected double sueldo;
     
     public Empleado(String nombre, double sueldo){
-        this.nombre = nombre;
-        this.sueldo = sueldo;
+        this.nombre=nombre;
+        this.sueldo=sueldo;
     }
-    
-    //Metodo para la sobreescritura
+    //netodo para la sobreescritura
     public String obtenerDetalles(){
-        return "Nombre: "+this.nombre+", Sueldo: "+this.sueldo;
+        return "nombre: "+this.nombre+", sueldo: "+this.sueldo;
     }
 
     public String getNombre() {
@@ -23,7 +20,6 @@ public class Empleado {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
     public double getSueldo() {
         return sueldo;
     }
@@ -32,4 +28,10 @@ public class Empleado {
         this.sueldo = sueldo;
     }
     
+    @Override
+    public String toString() {
+        return "Empleado{" + "nombre=" + nombre + ", sueldo=" + sueldo + '}';
+    }
+
+
 }
