@@ -14,5 +14,9 @@ public class TestConversionObjetos {
         //((Escritor)empleado).getTipoEscritura(); // Tenemos dos opciones: Esta es una.
         Escritor escritor = (Escritor)empleado; // Esto es la segundo opción.
         escritor.getTipoEscritura();
+        
+        //Upcasting
+        Empleado empleado2= escritor;
+        System.out.println(empleado2.obtenerDetalles());
     }
 }
