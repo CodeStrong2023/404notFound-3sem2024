@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f841814d-6143-43c5-896f-253a0b8302d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/ArgumentosVariables/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/semana2/ArgumentosVariables/nbproject/private/private.properties" afterDir="false" />
-    </list>
+    <list default="true" id="f841814d-6143-43c5-896f-253a0b8302d0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,13 +18,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/enzoa/Segundo Semestre UTN/404notFound-3sem2024/python/semana4&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "enzoAstorga",
+    "last_opened_file_path": "C:/Users/enzoa/Segundo Semestre UTN/404notFound-3sem2024/python/semana5"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.test_mundo_pc">
     <configuration name="computadora" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="semana4" />
