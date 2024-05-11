@@ -35,7 +35,7 @@ persona2.direccion = 'Salada14';
 persona2.telefono = '54928465768';
 console.log(persona2.telefono);
 console.log('Creamos un nuevo objeto');
-console.log(perosna['apellido']);//Accedemos como si fuera un arreglo
+console.log(persona['apellido']);//Accedemos como si fuera un arreglo
 console.log('Usamos el ciclo for in');
 //for in y accedemos al objeto como si fuera un arreglo
 for(propiedad in persona){
@@ -60,7 +60,7 @@ for (nombrePropiedad in persona){
 
 //Número 3: La función objet.values()
 console.log('Distintas formas de imprimir un objeto: Forma 3');
-let personaArray = Object.values();
+let personaArray = Object.values(persona);
 console.log(personaArray);
 
 //Número 4: Utilizaremos el método JSON.stringify
@@ -85,28 +85,52 @@ function Persona3(nombre, apellido, email){
 }
 let padre = new Persona3('Leo', 'Lopez', 'lopezl@gmail.com');
 padre.nombre = 'Luis'; //Modificamos el nombre
+padre.telefono = '6588378537';// Una propiedad exclusiva del objeto padre
 console.log(padre);
 console.log(padre.nombreCompleto()) //Utilizamos la función
 let madre = new Persona3('Laura', 'Contrera', 'contreral@gmail.com');
 console.log(madre);
+console.log(madre.telefono); // La propiedad no esta definida
 console.log(madre.nombreCompleto());
 
-let miObjeto = new Object();
-let miObjeto2 = {};
+//Diferentes formaas de crear objetos
 
+//caso objeto1
+let miObjeto = new Object(); // Esta es una opcicion formal
+//caso objeto 2
+let miObjeto2 = {};// esta opcion brebe y recomendada
+
+// caso string 1
 let miCadena1 = new String("Hola");
-let miCadena2 = "Hola";
+//caso string 2
+let miCadena2 = "Hola";//esta es la sintaxis siplificada y recomendada
 
-let miNumero = new Number(1);
+//caso con numeros 1
+let miNumero = new Number(1);//es formal no recomendable
+//caso con numeros 2
+let miNumero2 = 1;// sintaxis recomendada
 
-let miNumero2 = 1;
+//caso boolean 1
+let miBoolean1 = false;//formal
+//caso boolean 2
+let miBoolean2 = false; //Sintaxis recomendada
 
-let miBoolean2 = false;
-
+// Casos arreglos 1
 let miArreglo1 = new Array();
-
+// Caso arreglos 2
 let miArreglo2 = [];
 
-let miFuncion1 = new function(){};
+// Caso funcion 1
+let miFuncion1 = new function(){}; //Todo despues de new es considerado objeto
+//caso funcion 2
+let miFuncion2 = function(){}; //Notacion simplificad y recomendada
 
-let miFuncion2 = function(){};
+//Uso de prototype
+Persona3.prototype.telefono = '2942434833';
+console.log(padre)
+console.log(madre.telefono);
+madre.telefono = '29423484379';
+console.log(madre.telefono);
+
+
+
