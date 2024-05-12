@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f841814d-6143-43c5-896f-253a0b8302d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/Leccion01/manejo_excepciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/../semana5/Leccion01/manejo_excepciones.py" afterDir="false" />
-    </list>
+    <list default="true" id="f841814d-6143-43c5-896f-253a0b8302d0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +20,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "enzoAstorga",
-    "last_opened_file_path": "C:/Users/maxir_000/Segundo semestre/404notFound-3sem2024/python/semana5/Leccion01/manejo_excepciones.py"
+    "git-widget-placeholder": "JaviMariñanco",
+    "last_opened_file_path": "C:/Users/Javier/TercerSemestre/404notFound-3sem2024/python/semana5"
   }
 }]]></component>
   <component name="RunManager" selected="Python.test_mundo_pc">
