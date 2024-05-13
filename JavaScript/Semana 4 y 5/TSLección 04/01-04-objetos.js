@@ -132,6 +132,30 @@ console.log(madre.telefono);
 madre.telefono = '29423484379';
 console.log(madre.telefono);
 
+// Uso de call
+// Permite llamar a un método que está definido en un objeto desde otro objeto.
+let persona4 = {
+    nombre: 'Juan',
+    apellido: 'Perez',
+    nombreCompleto2: function(titulo, telefono){
+        return titulo+ ': '+this.nombre+' '+this.apellido+' '+telefono;
+        //return this.nombre+' '+this.apellido;
+    }
+}
+
+let persona5 = {
+    nombre: 'Carlos',
+    apellido: 'Lara'
+}
+
+console.log(persona4.nombreCompleto2('Lic.', '5492618585856'));
+console.log(persona4.nombreCompleto2.call(persona5, 'Ing', '5492618585856'));
+
+
+// Método apply
+// Similar a call, permite llamar un método en un objeto que no tiene definido cierto método.
+let arreglo = ['Ing.', '5492618686865']; // Creamos el arreglo y pasamos los elementos necesarios.
+console.log(persona4.nombreCompleto2.apply(persona5, arreglo));
 
 
 
