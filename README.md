@@ -92,10 +92,10 @@ Aquí subiremos las clases, ejercicios y tareas en equipo del 3er Semestre de la
     <td>S4</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Diego Rafael Ramos Llanos</td>
+    <td>S5</td>
+    <td>S5</td>
+    <td>S5</td>
   </tr>
   <tr>
     <td></td>
