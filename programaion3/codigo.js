@@ -40,4 +40,7 @@ function jugar(){
     }
 
     alert("Ganaste " + triunfos + " veces. Perdiste " + perdidas + " veces.");
+    if (confirm("¿Quieres jugar de nuevo?")) {
+        jugar();
+    }
 }
