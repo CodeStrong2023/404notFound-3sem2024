@@ -1,3 +1,5 @@
+//let persona3 = new Persona("Carla", "Ponce"), esto no se debe hacer
+
 class Persona{
     constructor(nombre, apellido){
         this._nombre = nombre;
@@ -13,11 +15,11 @@ class Persona{
     }
 
     get apellido(){
-        return this._apellido
+        return this._apellido;
     }
 
     set apellido(apellido){
-        this._apellido = apellido
+        this._apellido = apellido;
     }
 
 }
