@@ -14,11 +14,9 @@ function eleccion(jugada) {
     }
 }
 
-let triunfos = 1;
-let perdidas = 1;
-function jugar(){
-
-
+function jugar() {
+    let triunfos = 1;
+    let perdidas = 1;
 
     for (let i = 0; i < 3; i++) {
         let pc = Aleatorio();
@@ -40,7 +38,8 @@ function jugar(){
     }
 
     alert("Ganaste " + triunfos + " veces. Perdiste " + perdidas + " veces.");
-    if (confirm("¿Quieres jugar de nuevo?")) {
-        jugar();
-    }
+}
+
+function reiniciar(){
+    window.location.reload();
 }
