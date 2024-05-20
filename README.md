@@ -56,64 +56,73 @@ Aquí subiremos las clases, ejercicios y tareas en equipo del 3er Semestre de la
 # Scrum Master Semanales
 <table>
   <tr>
+    <th>Semana</th>
     <th>SM</th>
     <th>Python</th>
     <th>Java</th>
     <th>JavaScript</th>
   </tr>
   <tr>
+    <td>1</td>
     <td>Enzo Astorga</td>
     <td>-</td>
-    <td>S1</td>
+    <td>C1</td>
     <td>-</td>
   </tr>
   <tr>
+    <td>2</td>
     <td>EnzoAstorga</td>
-    <td>S1</td>
-    <td>S2</td>
-    <td>S1</td>
+    <td>C1</td>
+    <td>C2</td>
+    <td>C1</td>
   </tr>
   <tr>
+    <td>3</td>
     <td>Gonzalo Balmaceda</td>
-    <td>S2</td>
-    <td>S3</td>
-    <td>S2</td>
+    <td>C2</td>
+    <td>C3</td>
+    <td>C2</td>
   </tr>
   <tr>
+    <td>4</td>
     <td>Ignacio José Rocha</td>
-    <td>S3</td>
-    <td>S4</td>
-    <td>S3</td>
+    <td>C3</td>
+    <td>C4</td>
+    <td>C3</td>
   </tr>
   <tr>
+    <td>5</td>
     <td>Matías Landi</td>
-    <td>S4</td>
+    <td>C4</td>
     <td>-</td>
-    <td>S4</td>
+    <td>C4</td>
   </tr>
   <tr>
+    <td>6</td>
     <td>Diego Rafael Ramos Llanos</td>
-    <td>S5</td>
-    <td>S5</td>
-    <td>S5</td>
+    <td>C5</td>
+    <td>C5</td>
+    <td>C5</td>
   </tr>
   <tr>
+    <td>7</td>
     <td>Javier Mariñanco</td>
-    <td>S6</td>
+    <td>C6</td>
     <td>-</td>
-    <td>S6</td>
+    <td>C6</td>
   </tr>
   <tr>
+    <td>8</td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
+    <td>9</td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
 </table>
-
