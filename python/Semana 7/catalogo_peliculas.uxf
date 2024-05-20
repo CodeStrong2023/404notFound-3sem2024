@@ -2,7 +2,7 @@
 --
 - nombre: str
 --
-+__str__()
++__str__()  
 --
 Responsabilidades
 -- Representa un objeto película</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>40</y><w>300</w><h>170</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>10</y><w>100</w><h>30</h></coordinates><panel_attributes>servicio</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>60</y><w>260</w><h>140</h></coordinates><panel_attributes>&lt;&lt;CatalogoPeliculas&gt;&gt;
