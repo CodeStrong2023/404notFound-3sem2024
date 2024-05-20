@@ -98,10 +98,10 @@ Aquí subiremos las clases, ejercicios y tareas en equipo del 3er Semestre de la
     <td>S5</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Javier Mariñanco</td>
+    <td>S6</td>
+    <td>-</td>
+    <td>S6</td>
   </tr>
   <tr>
     <td></td>
