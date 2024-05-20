@@ -21,6 +21,12 @@ class Persona{ //Clase padre
     set apellido(apellido){
         this._apellido = apellido;
     }
+
+    nombreCompleto(){
+        return this._nombre+ ' '+this._apellido;
+    }
+
+
 }
 class Empleado extends Persona{ //Clase hija
     constructor(nombre, apellido, departamento){
@@ -52,6 +58,4 @@ console.log(persona2.apellido)
 
 let empleado1 = new Empleado("Maria", "Gimenez", "Sistemas");
 console.log(empleado1);
-console.log(empleado1.nombre);
-
-
+console.log(empleado1.nombreCompleto());
