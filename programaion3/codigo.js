@@ -14,26 +14,32 @@ function eleccion(jugada) {
     }
 }
 
-let triunfos = 1;
-let perdidas = 1;
+function jugar() {
+    let triunfos = 1;
+    let perdidas = 1;
 
-for (let i = 0; i < 3; i++) {
-    let pc = Aleatorio();
-    let jugador = parseInt(prompt("Elige: 1 para piedra, 2 para papel, 3 para tijera"));
+    for (let i = 0; i < 3; i++) {
+        let pc = Aleatorio();
+        let jugador = parseInt(prompt("Elige: 1 para piedra, 2 para papel, 3 para tijera"));
 
-    alert("PC elige: " + eleccion(pc));
-    alert("Tú eliges: " + eleccion(jugador));
+        alert("PC elige: " + eleccion(pc));
+        alert("Tú eliges: " + eleccion(jugador));
 
-    // Combate
-    if (pc == jugador) {
-        alert("Empate");
-    } else if (jugador == 1 && pc == 3 || jugador == 2 && pc == 1 || jugador == 3 && pc == 2) {
-        alert("Ganaste");
-        triunfos++;
-    } else {
-        alert("Perdiste");
-        perdidas++;
+        // Combate
+        if (pc == jugador) {
+            alert("Empate");
+        } else if (jugador == 1 && pc == 3 || jugador == 2 && pc == 1 || jugador == 3 && pc == 2) {
+            alert("Ganaste");
+            triunfos++;
+        } else {
+            alert("Perdiste");
+            perdidas++;
+        }
     }
+
+    alert("Ganaste " + triunfos + " veces. Perdiste " + perdidas + " veces.");
 }
 
-alert("Ganaste " + triunfos + " veces. Perdiste " + perdidas + " veces.");
+function reiniciar(){
+    window.location.reload();
+}
