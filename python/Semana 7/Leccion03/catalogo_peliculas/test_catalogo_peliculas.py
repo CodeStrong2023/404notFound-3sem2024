@@ -14,7 +14,7 @@ while opcion != 4:
             pelicula = Pelicula(nombre_pelicula)
             cp.agregar_peliculas(pelicula)
         elif opcion == 2:
-            cp.lista_peliculas()
+            cp.listar_peliculas()
         elif opcion == 3:
             cp.eliminar_peliculas()
     except Exception as e:
