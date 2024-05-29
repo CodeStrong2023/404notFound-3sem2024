@@ -2,7 +2,8 @@
 
 class Persona{ //Clase padre
 
-    static contadorObjetosPersona = 0;
+    static contadorObjetosPersona = 0; // Atributo estático
+    email = 'Valor default email'; // Atributo no estático
 
     constructor(nombre, apellido){
         this._nombre = nombre;
@@ -87,12 +88,19 @@ console.log(empleado1.nombreCompleto());
 console.log(empleado1.toString());
 console.log(persona1.toString());
 
-//persona1.saludar(); No se utiliza desde el obejo
+//persona1.saludar(); No se utiliza desde el objeto
 Persona.saludar();
 Persona.saludar2(persona1);
+
 Empleado.saludar();
 Empleado.saludar2(empleado1);
 
 //console.log(persona1.contadorObjetosPersona);
 console.log(Persona.contadorObjetosPersona);
-console.log(Empleado.contadorObjetosPersona)
+console.log(Empleado.contadorObjetosPersona);
+
+// El atributo no estático se asocia con los ojetos.
+console.log(persona1.email);
+console.log(empleado1.email);
+//console.log(Persona.email); No se puede acceder desde la clase.
+
