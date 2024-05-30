@@ -2,14 +2,14 @@
 
 class Persona{ //Clase padre
 
-    static contadorObjetosPersona = 0; // Atributo estático
-    email = 'Valor default email'; // Atributo no estático
+    static contadorPersonas = 0; // Atributo estático
+    //email = 'Valor default email'; // Atributo no estático
 
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
-        Persona.contadorObjetosPersona++;
-        console.log("Se incrementa el contador: " + Persona.contadorObjetosPersona);
+        this.idPersona = ++Persona.contadorPersonas;
+        //console.log("Se incrementa el contador: " + Persona.contadorObjetosPersona);
     }
 
     get nombre(){
@@ -29,7 +29,7 @@ class Persona{ //Clase padre
     }
 
     nombreCompleto(){
-        return this._nombre+ ' '+this._apellido;
+        return this.idPersona+ " "+  this.nombre_+ ' '+this._apellido;
     }
     // Sobreescribiendo el metodo de la clase padre (Objet)
     toString(){ //Regresa un string
@@ -103,4 +103,7 @@ console.log(Empleado.contadorObjetosPersona);
 console.log(persona1.email);
 console.log(empleado1.email);
 //console.log(Persona.email); No se puede acceder desde la clase.
-
+console.log(persona1.toString());  1 Juan Carlos Perez
+console.log(persona2.toString());  2 Maria Laura Lara 
+console.log(empleado1.toString());  3 María Gimenez, Sistemas
+console.log(Persona.contadorPersonas); 3
