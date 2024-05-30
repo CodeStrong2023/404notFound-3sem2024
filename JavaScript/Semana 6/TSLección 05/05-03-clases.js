@@ -107,3 +107,5 @@ console.log(persona1.toString());  1 Juan Carlos Perez
 console.log(persona2.toString());  2 Maria Laura Lara 
 console.log(empleado1.toString());  3 María Gimenez, Sistemas
 console.log(Persona.contadorPersonas); 3
+let petsona3 = new Persona('Carka', 'Pertosi')
+console.log(Persona.contadorPersonas);
