@@ -1,9 +1,24 @@
 //let persona3 = new Persona("Carla", "Ponce"), esto no se debe hacer
 
 class Persona{ //Clase padre
+
+    static contadorPersonas = 0; // Atributo estático
+    //email = 'Valor default email'; // Atributo no estático
+
+    static get MAX_OBJ(){ // este metodo simula una constante
+        return 5;
+    }
+
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
+        if (Persona.contadorPersonas < Persona.MAX_OBJ){
+            this.idPersona = ++Persona.contadorPersonas;
+        }
+        else{
+            console.log("se ha superado el maximo de objetos permitidos");
+        }
+        //console.log("Se incrementa el contador: " + Persona.contadorObjetosPersona);
     }
 
     get nombre(){
@@ -23,7 +38,7 @@ class Persona{ //Clase padre
     }
 
     nombreCompleto(){
-        return this._nombre+ ' '+this._apellido;
+        return this.idPersona+ " "+  this.nombre_+ ' '+this._apellido;
     }
     // Sobreescribiendo el metodo de la clase padre (Objet)
     toString(){ //Regresa un string
@@ -82,8 +97,33 @@ console.log(empleado1.nombreCompleto());
 console.log(empleado1.toString());
 console.log(persona1.toString());
 
-//persona1.saludar(); No se utiliza desde el obejo
+//persona1.saludar(); No se utiliza desde el objeto
 Persona.saludar();
 Persona.saludar2(persona1);
+
 Empleado.saludar();
 Empleado.saludar2(empleado1);
+
+//console.log(persona1.contadorObjetosPersona);
+console.log(Persona.contadorObjetosPersona);
+console.log(Empleado.contadorObjetosPersona);
+
+// El atributo no estático se asocia con los ojetos.
+console.log(persona1.email);
+console.log(empleado1.email);
+//console.log(Persona.email); No se puede acceder desde la clase.
+console.log(persona1.toString());  //1 Juan Carlos Perez
+console.log(persona2.toString());  //2 Maria Laura Lara 
+console.log(empleado1.toString());  //3 María Gimenez, Sistemas
+console.log(Persona.contadorPersonas);
+let petsona3 = new Persona('Carka', 'Pertosi')
+console.log(Persona.contadorPersonas);
+
+console.log(Persona.MAX_OBJ);
+//Persona.MAX_OBJ = 10; //no se puede modificar ni alterar
+console.log(Persona.MAX_OBJ);
+
+let persona4 = new Persona("Franco","Diaz");
+console.log(persona4.toString());
+let persona5 = new Persona("Liliana","paz");
+console.log(persona5.toString());
