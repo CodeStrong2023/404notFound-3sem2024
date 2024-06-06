@@ -14,7 +14,7 @@ class Persona{
     }
 
     get nombre(){
-        this._nombre;
+        return this._nombre;
     }
 
     set nombre(nombre){
@@ -42,21 +42,21 @@ class Persona{
     }
 }
 
-class Empleado extends Persona{
+class Empleado extends Persona {
     static contadorEmpleados = 0;
 
     constructor(nombre, apellido, edad, sueldo){
         super(nombre, apellido, edad);
-        this._idEmpleado = ++ Empleado.contadorEmpleados;
+        this._idEmpleado = ++Empleado.contadorEmpleados;
         this._sueldo = sueldo;
-
     }
 
-    get _idEmpleado(){
+    get idEmpleado(){
         return this._idEmpleado;
     }
+
     get sueldo(){
-        this._sueldo;
+        return this._sueldo;
     }
 
     set sueldo(sueldo){
@@ -64,10 +64,7 @@ class Empleado extends Persona{
     }
 
     toString(){
-    return `
-    ${super.toString} 
-    ${this._idEmpleado} 
-    ${this._sueldo}`;
+        return `${super.toString()} ${this._idEmpleado} ${this._sueldo}`;
     }
 }
 
@@ -97,8 +94,17 @@ class Cliente extends Persona{
 }
 
 //Prueba clase Persona
-let persona1 = new Persona("Juan","Perez",32);
-console.log(persona1.toString()); 1 Juan Perez 32
+let persona1 = new Persona("Juan", "Perez", 32);
+console.log(persona1.toString());
 
-let persona2 = new Persona("Carla" ,"Ortega",22);
-console.log(persona2.toString()); 2 Carla Ortega 22
+let persona2 = new Persona("Carla", "Ortega", 22);
+console.log(persona2.toString());
+
+// Prueba clase Empleado
+let empleado1 = new Empleado('Pedro', 'Román', 18, 5000);
+console.log(empleado1.toString());
+
+let empleado2 = new Empleado('Jonas', 'Torres', 30, 7000);
+console.log(empleado2.toString());
+
+
