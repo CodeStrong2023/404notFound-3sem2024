@@ -85,11 +85,7 @@ class Cliente extends Persona{
 		this._fechaRegistro=fechaRegistro
 	}
 	toString(){
-		return `
-			${super.toString()}
-			${this._idCliente}
-			${this._fechaRegistro}`;
-		
+		return `${super.toString()} ${this._idCliente} ${this._fechaRegistro}`;
 	}
 }
 
@@ -107,4 +103,9 @@ console.log(empleado1.toString());
 let empleado2 = new Empleado('Jonas', 'Torres', 30, 7000);
 console.log(empleado2.toString());
 
+// Prueba clase Cliente.
+let cliente1 = new Cliente("Miguel", "Zala", 29, new Date());
+console.log(cliente1.toString());
 
+let cliente2 = new Cliente("Natalia", "Ortega", 22, new Date());
+console.log(cliente2.toString());
