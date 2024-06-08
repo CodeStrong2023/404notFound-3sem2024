@@ -56,7 +56,7 @@ Aquí subiremos las clases, ejercicios y tareas en equipo del 3er Semestre de la
 # Scrum Master Semanales
 <table>
   <tr>
-    <th>Semana</th>
+    <th>*</th>
     <th>SM</th>
     <th>Python</th>
     <th>Java</th>
@@ -113,10 +113,10 @@ Aquí subiremos las clases, ejercicios y tareas en equipo del 3er Semestre de la
   </tr>
   <tr>
     <td>8</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Enzo Astorga</td>
+    <td>C7</td>
+    <td>C7</td>
+    <td>C7</td>
   </tr>
   <tr>
     <td>9</td>
