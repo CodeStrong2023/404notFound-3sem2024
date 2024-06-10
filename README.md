@@ -120,9 +120,17 @@ Aquí subiremos las clases, ejercicios y tareas en equipo del 3er Semestre de la
   </tr>
   <tr>
     <td>9</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Gonzalo Balmaceda</td>
+    <td>C9</td>
+    <td>C9</td>
+    <td>C9</td>
   </tr>
+  <tr>
+    <td>10</td>
+    <td>Ignacio José Rocha</td>
+    <td>C8</td>
+    <td>C8</td>
+    <td>C8</td>
+  </tr>
+</table>
 </table>
