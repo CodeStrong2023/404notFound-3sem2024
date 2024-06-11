@@ -30,3 +30,9 @@ class Producto{
         return `idProducto : ${this._idProducto}, nombre: ${this._nombre}, precio: $${this._precio}`;
     }
 }//Fin de la clase Producto
+
+
+let producto1 = new Producto('Pantalón', 200);
+let producto2 = new Producto('Camisa', 150);
+console.log(producto1.toString());
+console.log(producto2.toString());
