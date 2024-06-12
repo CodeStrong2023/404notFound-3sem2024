@@ -10,7 +10,7 @@ public class CalculadoraUTN {
             try {
                 var operacion = Integer.parseInt(entrada.nextLine());
                 if(operacion >= 1 && operacion <= 4){
-                    ejecutarOperacion();
+                    ejecutarOperacion(operacion, entrada);
                 } // Fin del if
                 else if (operacion == 5){
                     System.out.println("Hasta pronto...");
@@ -67,4 +67,3 @@ public class CalculadoraUTN {
     } // Fin método ejecutarOperacion
 
 } // Fin clase
-
