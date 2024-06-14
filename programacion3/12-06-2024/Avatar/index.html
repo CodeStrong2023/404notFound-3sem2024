@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        
+        <title>LA LEYENDA DE AANG: AVATAR</title>
+        <script src="./js/avatar.js"></script>
+     </head>
+    <body>
+        <h1>AVATAR 🔥💧🌱🌪️</h1>
+
+        <section id="seleccionar-personaje">
+            <h2>Elige tu Personaje</h2>
+
+            <label for="zuko">Zuko</label>
+            <input type="radio" name="personaje" id="zuko"/>
+
+            <label for="katara">Katara</label>
+            <input type="radio" name="personaje" id="katara"/>
+
+            <label for="aang">Aang</label>
+            <input type="radio" name="personaje" id="aang"/>
+
+            <label for="toph">Toph</label>
+            <input type="radio" name="personaje" id="toph"/>
+
+            <button id="boton-personaje">Seleccionar</button>
+        </section>
+
+        <section id="seleccionar-ataque">
+            <h2>Elige tu ataque</h2>
+            <p>Tu personaje <span id="personaje-jugador"></span> (<span id="ataque-jugador"></span>) tiene <span id="vidas-jugador">3</span> vidas</p>
+            <p>El personaje <span id="personaje-enemigo"></span> (<span id="ataque-enemigo"></span>) del enemigo tienen <span id="vidas-enemigo">3</span> vidas</p>
+            <p>
+                <button id="boton-ataque">Atacar</button>
+            </p>
+        </section>
+
+        <section id="mensajes">
+              </section>
+
+        <section id="reiniciar">
+            <button id="boton-reiniciar">Reiniciar</button>
+        </section>
+    </body>
+</html>
