@@ -133,7 +133,7 @@ Aquí subiremos las clases, ejercicios y tareas en equipo del 3er Semestre de la
     <td>C9</td>
   </tr>
   <tr>
-    <td>10</td>
+    <td>11</td>
     <td>Débora Celeste Pulitta</td>
     <td>C10</td>
     <td>C10</td>
