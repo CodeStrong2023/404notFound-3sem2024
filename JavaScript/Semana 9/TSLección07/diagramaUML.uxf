@@ -1,0 +1,42 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>90</x><y>0</y><w>210</w><h>230</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+--
+-idPersona:number
+-nombre:string
+-apellido: string
+-edad: number
+contadorPersonas
+--
+getIdPersona(): number
+getNombre(): string
+setNombre(string)
+getApellido():string
+setApellido(string)
+getEdad():number
+setEdad(string)
+toString()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>380</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
+--
+-idEmpleado:Long
+-sueldo:number
+--
+getIdEmpleado():number
+getSueldo(): number
+setSueldo(number)
+toString()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>380</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
+--
+-idCliente:number
+-fechaRegistro:Date
+--
+getIdCliente
+getFechaRegistro():Date
+setFechaRegistro(Date)
+toString()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>220</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+
+</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>270</y><w>190</w><h>50</h></coordinates><panel_attributes>
+</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>280</y><w>90</w><h>120</h></coordinates><panel_attributes>lt=-
+
+&lt;&lt;Extends&gt;&gt;
+</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>280</y><w>90</w><h>120</h></coordinates><panel_attributes>lt=-
+
+&lt;&lt;Extends&gt;&gt;
+</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element></diagram>
