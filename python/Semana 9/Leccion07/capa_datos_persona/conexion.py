@@ -6,7 +6,7 @@ import sys
 
 class Conexion:
     _DATABASE = "test_bd"
-    _USERNAME = "postgre"
+    _USERNAME = "postgres"
     _PASSWORD = "admin"
     _DB_PORT = "5432"
     _HOST = "127.0.0.1"
@@ -16,7 +16,9 @@ class Conexion:
 
     @classmethod
     def obtenerConexion(cls):
-        pass
+        conexion = cls.obtenerPool().getconn()
+        log.debug(f"Conexión obtenida del pool: {conexion}")
+        return conexion
 
     @classmethod
     def obtenerCursor(cls):
@@ -34,6 +36,7 @@ class Conexion:
                                                       port= cls._DB_PORT,
                                                       database= cls._DATABASE)
                 log.debug(f"Conexión del pool exitosa: {cls._pool}")
+                return cls._pool
             except Exception as e:
                 log.error("Ocurrió un error al obtener el pool: {e}")
                 sys.exit;
@@ -42,4 +45,10 @@ class Conexion:
 
 
 if __name__ == "__main__":
-    pass
+    conexion1 = Conexion.obtenerConexion()
+    conexion2 = Conexion.obtenerConexion()
+    conexion3 = Conexion.obtenerConexion()
+    conexion4 = Conexion.obtenerConexion()
+    conexion5 = Conexion.obtenerConexion()
+
+
