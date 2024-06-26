@@ -5,159 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a676053-0ee3-4e0a-97e6-c0d6434f6648" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/laboratorio.uxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/nbproject/private/private.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/nbproject/private/private.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/src/ar/com/system2023/mundopc/Computadora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/src/ar/com/system2023/mundopc/DispositivoEntrada.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/src/ar/com/system2023/mundopc/Monitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/src/ar/com/system2023/mundopc/Orden.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/src/ar/com/system2023/mundopc/Raton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/src/ar/com/system2023/mundopc/Teclado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Semana1/MundoPc/src/mundopc/mundoPC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/ArgumentosVariables/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/ArgumentosVariables/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/ArgumentosVariables/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/ArgumentosVariables/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/ArgumentosVariables/nbproject/private/private.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/ArgumentosVariables/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/ArgumentosVariables/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/ArgumentosVariables/src/test/TestArgumentosVariables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/BloquesInicializacion/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/BloquesInicializacion/src/domain/Persona.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/BloquesInicializacion/src/test/TestBloqueInicializacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/Enumeraciones/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/Enumeraciones/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/Enumeraciones/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/Enumeraciones/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/Enumeraciones/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/Enumeraciones/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/Enumeraciones/src/enumeraciones/Continentes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/Enumeraciones/src/enumeraciones/Dias.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana2/Enumeraciones/src/test/TestEnumeraciones.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/InstanceOf/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/InstanceOf/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/InstanceOf/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/InstanceOf/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/InstanceOf/nbproject/private/private.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/InstanceOf/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/InstanceOf/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/InstanceOf/src/domain/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/InstanceOf/src/domain/Gerente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/InstanceOf/src/test/TestInstanceOf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/Sobreescritura/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/Sobreescritura/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/Sobreescritura/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/Sobreescritura/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/Sobreescritura/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/Sobreescritura/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/Sobreescritura/src/domain/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/Sobreescritura/src/domain/Gerente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana4/Leccion04/Sobreescritura/src/test/TestSobreescritura.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClaseObject/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClaseObject/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClaseObject/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClaseObject/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClaseObject/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClaseObject/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClaseObject/src/domain/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClaseObject/src/domain/Escritor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClaseObject/src/domain/Gerente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClaseObject/src/domain/TipoEscritura.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClaseObject/src/test/TestClaseObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/build/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/build/classes/.netbeans_update_resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/build/classes/domain/FiguraGeometrica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/build/classes/domain/Rectangulo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/build/classes/test/TestAbstractas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/nbproject/private/private.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/nbproject/private/private.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/src/domain/FiguraGeometrica.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/src/domain/Rectangulo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ClasesAbstractas/src/test/TestAbstractas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ConversionObjetos/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ConversionObjetos/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ConversionObjetos/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ConversionObjetos/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ConversionObjetos/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ConversionObjetos/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ConversionObjetos/src/domain/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ConversionObjetos/src/domain/Escritor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ConversionObjetos/src/domain/Gerente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ConversionObjetos/src/domain/TipoEscritura.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/semana5/Leccion05/ConversionObjetos/src/test/TestConversionObjetos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/.idea/semana4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/laboratorio.uxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/.idea/mundo_pc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/DispositivoEntrada.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/computadora.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/monitor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/orden.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/raton.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/teclado.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/mundo_pc/test_mundo_pc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/semana5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/Leccion01/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/Leccion01/.idea/Leccion01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/Leccion01/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/Leccion01/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/Leccion01/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/Leccion01/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/Leccion01/NumerosIgualesException.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/Leccion01/manejo_excepciones.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/.idea/semana6.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/Archivos/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/Archivos/.idea/Archivos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/Archivos/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/Archivos/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/Archivos/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/Archivos/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/Archivos/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/Archivos/Leccion02/ManejoArchivos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/Archivos/Leccion02/leer_archivo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/Archivos/Leccion02/manejo_archivos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/Archivos/Leccion02/manejo_con_with.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/Archivos/Leccion02/prueba.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/ManejoArchivos.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,11 +26,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "JaviMariñanco",
-    "last_opened_file_path": "C:/Users/CELESTE/Desktop/404notFound-3sem2024/python/Semana 9/Leccion07"
+    "git-widget-placeholder": "rafael",
+    "last_opened_file_path": "C:/Users/Ramos/404notFound-3sem2024/python/Semana 9"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.prueba_bd">
+  <component name="RunManager" selected="Python.main">
     <configuration name="leer_archivo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leccion11" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,11 +39,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../python/semana6/Archivos/Leccion02" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/python/semana6/Archivos/Leccion02" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../python/semana6/Archivos/Leccion02/leer_archivo.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/python/semana6/Archivos/Leccion02/leer_archivo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Leccion11" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../python/semana6/Archivos/Leccion02" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/python/semana6/Archivos/Leccion02" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../python/semana6/Archivos/Leccion02/manejo_archivos.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/python/semana6/Archivos/Leccion02/manejo_archivos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,5 +133,16 @@
       <updated>1714186795697</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
