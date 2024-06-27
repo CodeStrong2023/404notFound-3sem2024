@@ -3,17 +3,7 @@ let ataqueEnemigo;
 let vidasJugador = 3;
 let vidasEnemigo = 3;
 
-function iniciarJuego() {
-    alert('Reglas del juego: \n 1. Elige tu personaje \n 2. Ataca al enemigo \n 3. Si tu vida llega a 0, pierdes \n 4. Si la vida del enemigo llega a 0, ganas');
 
-    let botonPersonajeJugador = document.getElementById('boton-personaje');
-    botonPersonajeJugador.addEventListener('click', seleccionarPersonajeJugador);
-
-    let botonAtaque = document.getElementById('boton-ataque');
-    botonAtaque.addEventListener('click', ataqueAleatorioJugador);
-    let botonReiniciar = document.getElementById('boton-reiniciar');
-    botonReiniciar.addEventListener('click', reiniciarJuego);
-}
 function reiniciarJuego() {
     ataqueJugador = null;
     ataqueEnemigo = null;
@@ -34,6 +24,35 @@ function reiniciarJuego() {
 
     let radios = document.querySelectorAll('input[type=radio][name=personaje]');
     radios.forEach(radio => radio.checked = false);
+
+    
+    document.getElementById('seleccionar-personaje').style.display = 'block';
+    document.getElementById('seleccionar-ataque').style.display = 'none';
+    document.getElementById('mensajes').style.display = 'none';
+    document.getElementById('reiniciar').style.display = 'none';
+}
+function iniciarJuego() {
+    alert('Reglas del juego: \n 1. Elige tu personaje \n 2. Ataca al enemigo \n 3. Si tu vida llega a 0, pierdes \n 4. Si la vida del enemigo llega a 0, ganas');
+
+    document.getElementById('seleccionar-ataque').style.display = 'none';
+    document.getElementById('mensajes').style.display = 'none';
+    document.getElementById('reiniciar').style.display = 'none';
+
+    let botonPersonajeJugador = document.getElementById('boton-personaje');
+    botonPersonajeJugador.addEventListener('click', function() {
+        if (seleccionarPersonajeJugador()) {
+            document.getElementById('seleccionar-ataque').style.display = 'block';
+            document.getElementById('reiniciar').style.display = 'block';
+            document.getElementById('mensajes').style.display = 'block';
+            
+        }
+    });
+
+    let botonAtaque = document.getElementById('boton-ataque');
+    botonAtaque.addEventListener('click', ataqueAleatorioJugador);
+
+    let botonReiniciar = document.getElementById('boton-reiniciar');
+    botonReiniciar.addEventListener('click', reiniciarJuego);
 }
 function seleccionarPersonajeJugador() {
     let inputZuko = document.getElementById('zuko');
@@ -52,9 +71,12 @@ function seleccionarPersonajeJugador() {
         spanPersonajeJugador.innerHTML = 'Toph';
     } else {
         alert('Selecciona un personaje');
-        return; 
+        return false; 
     }
+    document.getElementById('seleccionar-personaje').style.display = 'none';
+
     seleccionarPersonajeEnemigo();
+    return true; 
 }
 
 function seleccionarPersonajeEnemigo() {
@@ -104,24 +126,21 @@ function ataqueAleatorioEnemigo() {
 
 function actualizarMensaje() {
     let seccionMensajes = document.getElementById('mensajes');
-    let personajeJugador = document.getElementById('personaje-jugador').innerHTML;
-    let personajeEnemigo = document.getElementById('personaje-enemigo').innerHTML;
+    let personajeJugador = document.getElementById('personaje-jugador').innerText;
+    let personajeEnemigo = document.getElementById('personaje-enemigo').innerText;
     let ataqueJugador = document.getElementById('ataque-jugador').innerText;
     let ataqueEnemigo = document.getElementById('ataque-enemigo').innerText;
-    let vidasJugador = document.getElementById('vidas-jugador').innerText;
-    let vidasEnemigo = document.getElementById('vidas-enemigo').innerText;
+    let vidasJugador = parseInt(document.getElementById('vidas-jugador').innerText);
+    let vidasEnemigo = parseInt(document.getElementById('vidas-enemigo').innerText);
 
     let nuevoMensaje = document.createElement('p');
 
     if (vidasJugador > vidasEnemigo) {
-        nuevoMensaje.innerText = `Tu personaje ${personajeJugador} atacó con ${ataqueJugador}, el personaje ${personajeEnemigo}
-         del enemigo atacó con ${ataqueEnemigo} - GANASTE 🎉`;
+        nuevoMensaje.innerText = `Tu personaje ${personajeJugador} atacó con ${ataqueJugador}, el personaje ${personajeEnemigo} del enemigo atacó con ${ataqueEnemigo} - GANASTE 🎉`;
     } else if (vidasJugador < vidasEnemigo) {
-        nuevoMensaje.innerText = `Tu personaje ${personajeJugador} atacó con ${ataqueJugador}, el personaje ${personajeEnemigo}
-         del enemigo atacó con ${ataqueEnemigo} - PERDISTE 😢`;
+        nuevoMensaje.innerText = `Tu personaje ${personajeJugador} atacó con ${ataqueJugador}, el personaje ${personajeEnemigo} del enemigo atacó con ${ataqueEnemigo} - PERDISTE 😢`;
     } else {
-        nuevoMensaje.innerText = `Tu personaje ${personajeJugador} atacó con ${ataqueJugador}, el personaje ${personajeEnemigo}
-         del enemigo atacó con ${ataqueEnemigo} - EMPATE 😐`;
+        nuevoMensaje.innerText = `Tu personaje ${personajeJugador} atacó con ${ataqueJugador}, el personaje ${personajeEnemigo} del enemigo atacó con ${ataqueEnemigo} - EMPATE 😐`;
     }
 
     seccionMensajes.appendChild(nuevoMensaje);
@@ -129,25 +148,63 @@ function actualizarMensaje() {
 
 function determinarGanadorYActualizarVidas() {
     if (ataqueJugador == ataqueEnemigo) {
+
+        actualizarMensajeConResultado('EMPATE 😐');
     } else if (
-        (ataqueJugador == 'Puño' && ataqueEnemigo == 'Barrida') ||
         (ataqueJugador == 'Barrida' && ataqueEnemigo == 'Patada') ||
-        (ataqueJugador == 'Patada' && ataqueEnemigo == 'Puño')
+        (ataqueJugador == 'Patada' && ataqueEnemigo == 'Puño') ||
+        (ataqueJugador == 'Puño' && ataqueEnemigo == 'Barrida') 
     ) {
         if (vidasEnemigo > 0) {
             vidasEnemigo--;
         }
-    } else { 
+        actualizarMensajeConResultado('GANASTE 🎉');
+    } else {
         if (vidasJugador > 0) {
             vidasJugador--;
         }
+        actualizarMensajeConResultado('PERDISTE 😢');
     }
+
     document.getElementById('vidas-jugador').innerText = vidasJugador;
     document.getElementById('vidas-enemigo').innerText = vidasEnemigo;
-    if (vidasJugador === 0 || vidasEnemigo === 0) {
+
+    let ganador = '';
+    if (vidasJugador === 0) {
+        ganador = 'El enemigo';
+        document.getElementById('boton-ataque').disabled = true;
+    } else if (vidasEnemigo === 0) {
+        ganador = 'El jugador';
         document.getElementById('boton-ataque').disabled = true;
     }
-    actualizarMensaje();
+
+    if (ganador !== '') {
+        mostrarMensajeFinal(ganador);
+    }
+}
+
+function actualizarMensajeConResultado(resultado) {
+    let seccionMensajes = document.getElementById('mensajes');
+    let personajeJugador = document.getElementById('personaje-jugador').innerText;
+    let personajeEnemigo = document.getElementById('personaje-enemigo').innerText;
+    let ataqueJugador = document.getElementById('ataque-jugador').innerText;
+    let ataqueEnemigo = document.getElementById('ataque-enemigo').innerText;
+    let nuevoMensaje = document.createElement('p');
+    nuevoMensaje.innerText = `Tu personaje ${personajeJugador} atacó con ${ataqueJugador}, el personaje ${personajeEnemigo} del enemigo atacó con ${ataqueEnemigo} - ${resultado}`;
+    seccionMensajes.appendChild(nuevoMensaje);
+}
+
+function mostrarMensajeFinal(ganador) {
+    alert(`${ganador} ha ganado la batalla!`);
+    let mensajeFinal = document.getElementById('mensaje-final');
+    if (!mensajeFinal) {
+        mensajeFinal = document.createElement('div');
+        mensajeFinal.id = 'mensaje-final';
+        document.body.appendChild(mensajeFinal);
+    }
+    
+    mensajeFinal.style.display = 'block';
+    document.getElementById('reiniciar').style.display = 'block';
 }
 
 function aleatorio(min, max) {
