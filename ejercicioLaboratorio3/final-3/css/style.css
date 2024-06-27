@@ -6,48 +6,26 @@
 }
 
 body {
-  overflow: hidden;
-}
-
-/* La sección y los colores no se utilizan en el HTML proporcionado, por lo que se comentan
-section {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(to bottom, #999, #888);
+  background: linear-gradient(120deg, #f093fb, #f5576c, #4facfe, #00f2fe);
+  overflow: hidden;
 }
 
-section .color {
-  position: absolute;
-  filter: blur(150px);
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(120deg, #f093fb, #f5576c, #4facfe, #00f2fe);
 }
 
-section .color:nth-child(1) {
-  top: -350px;
-  width: 600px;
-  height: 600px;
-  background: #ff359b;
-}
-
-section .color:nth-child(2) {
-  bottom: -150px;
-  left: 100px;
-  width: 500px;
-  height: 500px;
-  background: #fffd87;
-}
-
-section .color:nth-child(3) {
-  bottom: 50px;
-  right: 100px;
-  width: 300px;
-  height: 300px;
-  background: #00d2ff;
-}
-
-.box .square {
-  position: absolute;
+.square {
+  position: fixed;
   backdrop-filter: blur(5px);
   box-shadow: 0 25px 45px rgba(0,0,0,0.1);
   border: 1px solid rgba(255,255,255,0.2);
@@ -55,33 +33,60 @@ section .color:nth-child(3) {
   border-bottom: 1px solid rgba(255,255,255,0.2);
   background: rgba(255,255,255,0.1);
   border-radius: 10px;
-  animation: animate 10s ease infinite;
+  animation: animate 10s linear infinite;
   animation-delay: calc(-1s * var(--i));
 }
 
 @keyframes animate {
   0%, 100% {
-    transform: translateY(-40px);
+    transform: translateY(-20px);
   }
   50% {
-    transform: translateY(40px);
+    transform: translateY(20px);
   }
 }
 
-.box .square:nth-child(1) {
-  top: -50px;
-  right: -60px;
+.square:nth-child(1) {
+  top: 150px;
+  right: 100px;
+  width: 120px;
+  height: 120px;
+}
+
+.square:nth-child(2) {
+  top: 250px;
+  left: 100px;
+  width: 170px;
+  height: 170px;
+}
+
+.square:nth-child(3) {
+  bottom: 200px;
+  right: 100px;
   width: 100px;
   height: 100px;
 }
-*/
+
+.square:nth-child(4) {
+  bottom: 150px;
+  left: 300px;
+  width: 90px;
+  height: 90px;
+}
+
+.square:nth-child(5) {
+  top: 300px;
+  left: 150px;
+  width: 110px;
+  height: 110px;
+}
 
 .container {
   position: relative;
   width: 400px;
   min-height: 400px;
   background: rgba(255,255,255,0.1);
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
