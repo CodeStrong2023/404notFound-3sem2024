@@ -43,11 +43,52 @@ public class EstudianteDAO {
         return estudiantes;
     } // Fin método listar
 
+    // Método para buscar por id.
+    public boolean buscarEstudiantesId(Estudiante estudiante) {
+        PreparedStatement ps;
+        ResultSet rs;
+        Connection conexion = getConnection();
+        String sql = "SELECT * FROM estudiantes2024 WHERE idestudiantes2024=?";
+        try {
+            ps = conexion.prepareStatement(sql);
+            ps.setInt(1, estudiante.getIdEstudiante());
+            rs = ps.executeQuery();
+
+            if (rs.next()) {
+                estudiante.setNombre(rs.getString("nombre"));
+                estudiante.setApellido(rs.getString("apellido"));
+                estudiante.setTelefono(rs.getString("telefono"));
+                estudiante.setEmail(rs.getString("email"));
+                return true;
+            }
+        } catch (Exception e) {
+            System.out.println("Ocurrió un error al buscar estudiante: " + e.getMessage());
+        }
+        finally {
+            try {
+                conexion.close();
+            } catch (Exception e) {
+                System.out.println("Ocurrió un error al cerrar la conexión: " + e.getMessage());
+            }
+        } // Fin finally
+        return false;
+    } // Fin método buscarEstudiantesId
+
     public static void main(String[] args) {
         // Listar los estudiantes
         var estudianteDao = new EstudianteDAO();
         System.out.println("Listado de Estudiantes: ");
         List<Estudiante> estudiantes = estudianteDao.listarEstudiantes();
         estudiantes.forEach(System.out::println); // Función para imprimir
+
+        // Buscar estudiantes por el id.
+        var estudiante1 = new Estudiante(1);
+        System.out.println("Estudiante antes de la búsqueda: " + estudiante1);
+        var encontrado = estudianteDao.buscarEstudiantesId(estudiante1);
+        if (encontrado) {
+            System.out.println("Estudiante encontrado: " + estudiante1);
+        } else {
+            System.out.println("No se encontro el estudiante: " + estudiante1.getIdEstudiante());
+        }
     }
 }
