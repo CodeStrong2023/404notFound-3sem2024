@@ -74,6 +74,19 @@ public class EstudianteDAO {
         return false;
     } // Fin método buscarEstudiantesId
 
+    //metodo agregar un nuevo estudiante
+    public boolean agregarEstudiantes(Estudiante estudiante){
+        PreparedStatement ps;
+        Connection con = getConnection();
+        String sql = "INSERT INTO estudiantes2022 (nombre, apellido, telefono, email) VALUES (?, ?, ? ,?)";
+        try{
+            ps = con.prepareStatement(sql);
+
+        }catch (Exception e){
+            System.out.println("Ocurrio un error al agregar el estudiante: " + e);
+        }
+    }
+
     public static void main(String[] args) {
         // Listar los estudiantes
         var estudianteDao = new EstudianteDAO();
