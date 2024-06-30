@@ -140,11 +140,18 @@ Aquí subiremos las clases, ejercicios y tareas en equipo del 3er Semestre de la
     <td>C10</td>
   </tr>
   <tr>
-    <td>11</td>
+    <td>12</td>
     <td>Débora Celeste Pulitta</td>
     <td>-</td>
     <td>C11</td>
     <td>-</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Enzo Astorga</td>
+    <td>C11: a-b-c</td>
+    <td>C12</td>
+    <td>C11</td>
   </tr>
 </table>
 </table>
