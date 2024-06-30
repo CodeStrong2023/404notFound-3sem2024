@@ -30,7 +30,7 @@ public class Estudiante {
         this.email = email;
     }
 
-    public int getIdEstudiante() {
+    public String getIdEstudiante() {
         return idEstudiante;
     }
 
